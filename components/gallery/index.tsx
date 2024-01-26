@@ -25,6 +25,7 @@ const Gallery = ({ images }: GalleryProps) => {
             key={image.id}
           >
             <Image
+              priority
               fill
               src={image.url}
               alt="Image"

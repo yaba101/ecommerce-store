@@ -23,6 +23,7 @@ const ProductCard = ({ item }: ProductCardProps) => {
     >
       <div className="aspect-square rounded-xl bg-gray-100 relative">
         <Image
+          priority
           src={item.images?.[0]?.url}
           alt="Image"
           fill

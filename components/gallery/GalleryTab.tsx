@@ -13,6 +13,7 @@ const GalleryTab = ({ image }: GalleryTabProps) => {
         <div>
           <span className="absolute h-full w-full aspect-square inset-0 overflow-hidden rounded-md">
             <Image
+              priority
               fill
               src={image.url}
               alt=""
