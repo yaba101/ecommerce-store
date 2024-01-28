@@ -25,10 +25,8 @@ const CategoryPage = async ({ params, searchParams }: CategoryPageProps) => {
     sizeId: searchParams.sizeId,
   });
   const sizes = await getSizes();
-  console.log({ sizes });
   const colors = await getColors();
   const category = await getCategory(params.categoryId);
-  console.log(category);
   return (
     <div className="bg-white">
       <Container>
