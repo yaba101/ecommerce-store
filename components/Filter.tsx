@@ -3,7 +3,7 @@
 import { Color, Size } from "@/types";
 import { useRouter, useSearchParams } from "next/navigation";
 import queryString from "query-string";
-import Button from "./ui/Button";
+import Button from "./Button";
 import { cn } from "@/lib/utils";
 
 interface FilterProps {
